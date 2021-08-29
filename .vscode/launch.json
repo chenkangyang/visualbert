@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: vqa",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "visualbert/models/train.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                // "CUDA_VISIBLE_DEVICES": "4,6,7,8",
+                "CUDA_VISIBLE_DEVICES": "4,6,7,8",
+                "PYTHONPATH": "$PYTHONPATH:/home/chenkangyang/workspace/visualbert/visualbert:/home/chenkangyang/workspace/visualbert",
+            },
+            "args": [
+                "-folder",
+                "logs/debug",
+                "-config",
+                "/home/chenkangyang/workspace/visualbert/visualbert/configs/vqa/coco-pre-train.json"
+            ]
+        }
+    ]
+}

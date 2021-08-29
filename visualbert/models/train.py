@@ -144,6 +144,7 @@ if TEST_DATA_READING:
 
 print(f"Using {num_workers} workers out of {NUM_CPUS} possible", flush=True)
 loader_params = {'batch_size': args.train_batch_size // NUM_GPUS, 'num_gpus':NUM_GPUS, 'num_workers':num_workers}
+print(loader_params)
 
 def get_dataset_loader(args, dataset_name):
     # The VCR approach toward

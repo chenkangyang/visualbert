@@ -5,7 +5,8 @@
   "use_visual_genome": true,
 
   "max_seq_length": 128,
-  "bert_model_name": "bert-base-uncased",
+  // "bert_model_name": "bert-base-uncased",
+  "bert_model_name": "/home/chenkangyang/workspace/visualbert/models/bert-base-uncased",
   "do_lower_case": true,
 
   "train_batch_size": 64,
@@ -26,7 +27,7 @@
   "restore_bin":  null,  //Specify which model to initialize from
   "include_res152": false,
 
-  "num_workers": 8,
+  "num_workers": 4,
   "val_workers": 2,
 
   "model":
