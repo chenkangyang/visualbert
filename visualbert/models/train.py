@@ -402,6 +402,7 @@ for epoch_num in range(start_epoch, stop_epoch):
         ############### Save model
         if not args.get("skip_training", False):
             train_model.save_checkpoint(args.folder, epoch_num, val_metric_per_epoch, is_best=int(np.argmax(val_metric_per_epoch)) == (len(val_metric_per_epoch) - 1))
+    
     except KeyboardInterrupt:
         if not args.get("skip_training", False):
             train_model.save_checkpoint(args.folder, epoch_num, None, is_best=False)
@@ -413,4 +414,7 @@ for epoch_num in range(start_epoch, stop_epoch):
         print("Something Went Wrong with Evaluation. Ignored.")
         if args.get("skip_training", False):
             assert(0)
-        
+
+from ipdb import set_trace as st; st()
+print("Finish all epoch, Ready to Exit")
+    
