@@ -1496,7 +1496,7 @@ class TrainVisualBERTObjective(PreTrainedBertModel):
 
             if label is not None:
                 loss_fct = CrossEntropyLoss()
-                output_dict["loss"] = loss_fct(reshaped_logits, label.contiguous())
+                output_dict["loss"] = loss_fct(reshaped_logits, label.float().contiguous())
 
             return output_dict
 
@@ -1519,7 +1519,7 @@ class TrainVisualBERTObjective(PreTrainedBertModel):
                 loss_fct = torch.nn.KLDivLoss(reduction = "batchmean")
                 log_softmax = torch.nn.LogSoftmax(dim=-1)
                 reshaped_logits = log_softmax(reshaped_logits)
-                output_dict["loss"] = loss_fct(reshaped_logits, label.contiguous())
+                output_dict["loss"] = loss_fct(reshaped_logits, label.float().contiguous())
 
                 output_dict["accuracy"] = torch.sum(compute_score_with_logits(reshaped_logits, label)) / label.size(0)
 
@@ -1563,7 +1563,7 @@ class TrainVisualBERTObjective(PreTrainedBertModel):
             output_dict["loss"] = None
             if label is not None:
                 loss_fct = CrossEntropyLoss()
-                output_dict["loss"] = loss_fct(reshaped_logits, label.contiguous())
+                output_dict["loss"] = loss_fct(reshaped_logits, label.float().contiguous())
             return output_dict
 
         elif self.training_head_type == "flickr":
@@ -1589,7 +1589,7 @@ class TrainVisualBERTObjective(PreTrainedBertModel):
                 log_softmax = torch.nn.LogSoftmax(dim=-1)
                 scores = log_softmax(scores)
 
-                label = label.contiguous()
+                label = label.float().contiguous()
                 # label = batch x selected_postion x needed position
                 output_dict["loss"] = loss_fct(scores, label)
                 acc, upper_acc = compute_score_with_logits_flickr(scores, label)

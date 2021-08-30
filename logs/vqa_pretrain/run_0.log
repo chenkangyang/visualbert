@@ -1,0 +1,1475 @@
+Using 4 workers out of 40 possible
+{'batch_size': 16, 'num_gpus': 4, 'num_workers': 4}
+Successfully loaded: bert.bert.embeddings.word_embeddings.weight
+Successfully loaded: bert.bert.embeddings.position_embeddings.weight
+Successfully loaded: bert.bert.embeddings.token_type_embeddings.weight
+Successfully loaded: bert.bert.embeddings.LayerNorm.weight
+Successfully loaded: bert.bert.embeddings.LayerNorm.bias
+Successfully loaded: bert.bert.embeddings.token_type_embeddings_visual.weight
+Successfully loaded: bert.bert.embeddings.position_embeddings_visual.weight
+Successfully loaded: bert.bert.embeddings.projection.weight
+Successfully loaded: bert.bert.embeddings.projection.bias
+Successfully loaded: bert.bert.encoder.layer.0.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.0.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.0.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.0.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.0.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.0.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.0.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.0.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.0.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.0.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.0.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.0.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.0.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.0.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.0.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.0.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.1.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.1.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.1.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.1.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.1.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.1.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.1.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.1.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.1.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.1.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.1.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.1.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.1.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.1.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.1.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.1.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.2.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.2.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.2.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.2.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.2.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.2.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.2.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.2.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.2.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.2.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.2.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.2.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.2.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.2.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.2.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.2.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.3.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.3.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.3.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.3.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.3.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.3.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.3.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.3.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.3.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.3.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.3.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.3.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.3.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.3.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.3.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.3.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.4.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.4.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.4.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.4.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.4.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.4.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.4.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.4.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.4.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.4.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.4.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.4.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.4.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.4.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.4.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.4.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.5.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.5.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.5.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.5.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.5.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.5.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.5.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.5.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.5.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.5.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.5.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.5.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.5.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.5.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.5.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.5.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.6.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.6.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.6.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.6.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.6.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.6.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.6.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.6.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.6.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.6.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.6.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.6.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.6.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.6.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.6.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.6.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.7.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.7.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.7.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.7.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.7.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.7.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.7.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.7.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.7.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.7.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.7.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.7.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.7.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.7.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.7.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.7.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.8.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.8.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.8.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.8.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.8.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.8.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.8.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.8.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.8.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.8.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.8.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.8.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.8.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.8.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.8.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.8.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.9.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.9.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.9.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.9.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.9.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.9.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.9.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.9.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.9.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.9.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.9.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.9.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.9.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.9.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.9.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.9.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.10.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.10.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.10.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.10.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.10.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.10.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.10.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.10.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.10.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.10.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.10.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.10.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.10.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.10.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.10.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.10.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.11.attention.self.query.weight
+Successfully loaded: bert.bert.encoder.layer.11.attention.self.query.bias
+Successfully loaded: bert.bert.encoder.layer.11.attention.self.key.weight
+Successfully loaded: bert.bert.encoder.layer.11.attention.self.key.bias
+Successfully loaded: bert.bert.encoder.layer.11.attention.self.value.weight
+Successfully loaded: bert.bert.encoder.layer.11.attention.self.value.bias
+Successfully loaded: bert.bert.encoder.layer.11.attention.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.11.attention.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.11.attention.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.11.attention.output.LayerNorm.bias
+Successfully loaded: bert.bert.encoder.layer.11.intermediate.dense.weight
+Successfully loaded: bert.bert.encoder.layer.11.intermediate.dense.bias
+Successfully loaded: bert.bert.encoder.layer.11.output.dense.weight
+Successfully loaded: bert.bert.encoder.layer.11.output.dense.bias
+Successfully loaded: bert.bert.encoder.layer.11.output.LayerNorm.weight
+Successfully loaded: bert.bert.encoder.layer.11.output.LayerNorm.bias
+Successfully loaded: bert.bert.pooler.dense.weight
+Successfully loaded: bert.bert.pooler.dense.bias
+Successfully loaded: bert.cls.predictions.bias
+Successfully loaded: bert.cls.predictions.transform.dense.weight
+Successfully loaded: bert.cls.predictions.transform.dense.bias
+Successfully loaded: bert.cls.predictions.transform.LayerNorm.weight
+Successfully loaded: bert.cls.predictions.transform.LayerNorm.bias
+Successfully loaded: bert.cls.predictions.decoder.weight
+Successfully loaded: bert.cls.seq_relationship.weight
+Successfully loaded: bert.cls.seq_relationship.bias
+No detector found.
+
+ 112.1M total parameters. 112.1M training 
+ ----- 
+                                                                            shape      size  requires_grad
+name                                                                                                     
+module.bert.bert.embeddings.word_embeddings.weight                   [30522,768]  23440896           True
+module.bert.bert.encoder.layer.0.intermediate.dense.weight            [3072,768]   2359296           True
+module.bert.bert.encoder.layer.0.output.dense.weight                  [768,3072]   2359296           True
+module.bert.bert.encoder.layer.1.intermediate.dense.weight            [3072,768]   2359296           True
+module.bert.bert.encoder.layer.1.output.dense.weight                  [768,3072]   2359296           True
+module.bert.bert.encoder.layer.2.intermediate.dense.weight            [3072,768]   2359296           True
+module.bert.bert.encoder.layer.2.output.dense.weight                  [768,3072]   2359296           True
+module.bert.bert.encoder.layer.3.intermediate.dense.weight            [3072,768]   2359296           True
+module.bert.bert.encoder.layer.3.output.dense.weight                  [768,3072]   2359296           True
+module.bert.bert.encoder.layer.4.intermediate.dense.weight            [3072,768]   2359296           True
+module.bert.bert.encoder.layer.4.output.dense.weight                  [768,3072]   2359296           True
+module.bert.bert.encoder.layer.5.intermediate.dense.weight            [3072,768]   2359296           True
+module.bert.bert.encoder.layer.5.output.dense.weight                  [768,3072]   2359296           True
+module.bert.bert.encoder.layer.6.intermediate.dense.weight            [3072,768]   2359296           True
+module.bert.bert.encoder.layer.6.output.dense.weight                  [768,3072]   2359296           True
+module.bert.bert.encoder.layer.7.intermediate.dense.weight            [3072,768]   2359296           True
+module.bert.bert.encoder.layer.7.output.dense.weight                  [768,3072]   2359296           True
+module.bert.bert.encoder.layer.8.intermediate.dense.weight            [3072,768]   2359296           True
+module.bert.bert.encoder.layer.8.output.dense.weight                  [768,3072]   2359296           True
+module.bert.bert.encoder.layer.9.intermediate.dense.weight            [3072,768]   2359296           True
+module.bert.bert.encoder.layer.9.output.dense.weight                  [768,3072]   2359296           True
+module.bert.bert.encoder.layer.10.intermediate.dense.weight           [3072,768]   2359296           True
+module.bert.bert.encoder.layer.10.output.dense.weight                 [768,3072]   2359296           True
+module.bert.bert.encoder.layer.11.intermediate.dense.weight           [3072,768]   2359296           True
+module.bert.bert.encoder.layer.11.output.dense.weight                 [768,3072]   2359296           True
+module.bert.bert.embeddings.projection.weight                         [768,2048]   1572864           True
+module.bert.bert.encoder.layer.0.attention.self.query.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.0.attention.self.key.weight             [768,768]    589824           True
+module.bert.bert.encoder.layer.0.attention.self.value.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.0.attention.output.dense.weight         [768,768]    589824           True
+module.bert.bert.encoder.layer.1.attention.self.query.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.1.attention.self.key.weight             [768,768]    589824           True
+module.bert.bert.encoder.layer.1.attention.self.value.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.1.attention.output.dense.weight         [768,768]    589824           True
+module.bert.bert.encoder.layer.2.attention.self.query.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.2.attention.self.key.weight             [768,768]    589824           True
+module.bert.bert.encoder.layer.2.attention.self.value.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.2.attention.output.dense.weight         [768,768]    589824           True
+module.bert.bert.encoder.layer.3.attention.self.query.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.3.attention.self.key.weight             [768,768]    589824           True
+module.bert.bert.encoder.layer.3.attention.self.value.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.3.attention.output.dense.weight         [768,768]    589824           True
+module.bert.bert.encoder.layer.4.attention.self.query.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.4.attention.self.key.weight             [768,768]    589824           True
+module.bert.bert.encoder.layer.4.attention.self.value.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.4.attention.output.dense.weight         [768,768]    589824           True
+module.bert.bert.encoder.layer.5.attention.self.query.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.5.attention.self.key.weight             [768,768]    589824           True
+module.bert.bert.encoder.layer.5.attention.self.value.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.5.attention.output.dense.weight         [768,768]    589824           True
+module.bert.bert.encoder.layer.6.attention.self.query.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.6.attention.self.key.weight             [768,768]    589824           True
+module.bert.bert.encoder.layer.6.attention.self.value.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.6.attention.output.dense.weight         [768,768]    589824           True
+module.bert.bert.encoder.layer.7.attention.self.query.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.7.attention.self.key.weight             [768,768]    589824           True
+module.bert.bert.encoder.layer.7.attention.self.value.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.7.attention.output.dense.weight         [768,768]    589824           True
+module.bert.bert.encoder.layer.8.attention.self.query.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.8.attention.self.key.weight             [768,768]    589824           True
+module.bert.bert.encoder.layer.8.attention.self.value.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.8.attention.output.dense.weight         [768,768]    589824           True
+module.bert.bert.encoder.layer.9.attention.self.query.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.9.attention.self.key.weight             [768,768]    589824           True
+module.bert.bert.encoder.layer.9.attention.self.value.weight           [768,768]    589824           True
+module.bert.bert.encoder.layer.9.attention.output.dense.weight         [768,768]    589824           True
+module.bert.bert.encoder.layer.10.attention.self.query.weight          [768,768]    589824           True
+module.bert.bert.encoder.layer.10.attention.self.key.weight            [768,768]    589824           True
+module.bert.bert.encoder.layer.10.attention.self.value.weight          [768,768]    589824           True
+module.bert.bert.encoder.layer.10.attention.output.dense.weight        [768,768]    589824           True
+module.bert.bert.encoder.layer.11.attention.self.query.weight          [768,768]    589824           True
+module.bert.bert.encoder.layer.11.attention.self.key.weight            [768,768]    589824           True
+module.bert.bert.encoder.layer.11.attention.self.value.weight          [768,768]    589824           True
+module.bert.bert.encoder.layer.11.attention.output.dense.weight        [768,768]    589824           True
+module.bert.bert.pooler.dense.weight                                   [768,768]    589824           True
+module.bert.cls.predictions.transform.dense.weight                     [768,768]    589824           True
+module.bert.bert.embeddings.position_embeddings.weight                 [512,768]    393216           True
+module.bert.bert.embeddings.position_embeddings_visual.weight          [512,768]    393216           True
+module.bert.cls.predictions.bias                                         [30522]     30522           True
+module.bert.bert.encoder.layer.0.intermediate.dense.bias                  [3072]      3072           True
+module.bert.bert.encoder.layer.1.intermediate.dense.bias                  [3072]      3072           True
+module.bert.bert.encoder.layer.2.intermediate.dense.bias                  [3072]      3072           True
+module.bert.bert.encoder.layer.3.intermediate.dense.bias                  [3072]      3072           True
+module.bert.bert.encoder.layer.4.intermediate.dense.bias                  [3072]      3072           True
+module.bert.bert.encoder.layer.5.intermediate.dense.bias                  [3072]      3072           True
+module.bert.bert.encoder.layer.6.intermediate.dense.bias                  [3072]      3072           True
+module.bert.bert.encoder.layer.7.intermediate.dense.bias                  [3072]      3072           True
+module.bert.bert.encoder.layer.8.intermediate.dense.bias                  [3072]      3072           True
+module.bert.bert.encoder.layer.9.intermediate.dense.bias                  [3072]      3072           True
+module.bert.bert.encoder.layer.10.intermediate.dense.bias                 [3072]      3072           True
+module.bert.bert.encoder.layer.11.intermediate.dense.bias                 [3072]      3072           True
+module.bert.bert.embeddings.token_type_embeddings.weight                 [2,768]      1536           True
+module.bert.bert.embeddings.token_type_embeddings_visual.weight          [2,768]      1536           True
+module.bert.cls.seq_relationship.weight                                  [2,768]      1536           True
+module.bert.bert.embeddings.LayerNorm.weight                               [768]       768           True
+module.bert.bert.embeddings.LayerNorm.bias                                 [768]       768           True
+module.bert.bert.embeddings.projection.bias                                [768]       768           True
+module.bert.bert.encoder.layer.0.attention.self.query.bias                 [768]       768           True
+module.bert.bert.encoder.layer.0.attention.self.key.bias                   [768]       768           True
+module.bert.bert.encoder.layer.0.attention.self.value.bias                 [768]       768           True
+module.bert.bert.encoder.layer.0.attention.output.dense.bias               [768]       768           True
+module.bert.bert.encoder.layer.0.attention.output.LayerNorm.weight         [768]       768           True
+module.bert.bert.encoder.layer.0.attention.output.LayerNorm.bias           [768]       768           True
+module.bert.bert.encoder.layer.0.output.dense.bias                         [768]       768           True
+module.bert.bert.encoder.layer.0.output.LayerNorm.weight                   [768]       768           True
+module.bert.bert.encoder.layer.0.output.LayerNorm.bias                     [768]       768           True
+module.bert.bert.encoder.layer.1.attention.self.query.bias                 [768]       768           True
+module.bert.bert.encoder.layer.1.attention.self.key.bias                   [768]       768           True
+module.bert.bert.encoder.layer.1.attention.self.value.bias                 [768]       768           True
+module.bert.bert.encoder.layer.1.attention.output.dense.bias               [768]       768           True
+module.bert.bert.encoder.layer.1.attention.output.LayerNorm.weight         [768]       768           True
+module.bert.bert.encoder.layer.1.attention.output.LayerNorm.bias           [768]       768           True
+module.bert.bert.encoder.layer.1.output.dense.bias                         [768]       768           True
+module.bert.bert.encoder.layer.1.output.LayerNorm.weight                   [768]       768           True
+module.bert.bert.encoder.layer.1.output.LayerNorm.bias                     [768]       768           True
+module.bert.bert.encoder.layer.2.attention.self.query.bias                 [768]       768           True
+module.bert.bert.encoder.layer.2.attention.self.key.bias                   [768]       768           True
+module.bert.bert.encoder.layer.2.attention.self.value.bias                 [768]       768           True
+module.bert.bert.encoder.layer.2.attention.output.dense.bias               [768]       768           True
+module.bert.bert.encoder.layer.2.attention.output.LayerNorm.weight         [768]       768           True
+module.bert.bert.encoder.layer.2.attention.output.LayerNorm.bias           [768]       768           True
+module.bert.bert.encoder.layer.2.output.dense.bias                         [768]       768           True
+module.bert.bert.encoder.layer.2.output.LayerNorm.weight                   [768]       768           True
+module.bert.bert.encoder.layer.2.output.LayerNorm.bias                     [768]       768           True
+module.bert.bert.encoder.layer.3.attention.self.query.bias                 [768]       768           True
+module.bert.bert.encoder.layer.3.attention.self.key.bias                   [768]       768           True
+module.bert.bert.encoder.layer.3.attention.self.value.bias                 [768]       768           True
+module.bert.bert.encoder.layer.3.attention.output.dense.bias               [768]       768           True
+module.bert.bert.encoder.layer.3.attention.output.LayerNorm.weight         [768]       768           True
+module.bert.bert.encoder.layer.3.attention.output.LayerNorm.bias           [768]       768           True
+module.bert.bert.encoder.layer.3.output.dense.bias                         [768]       768           True
+module.bert.bert.encoder.layer.3.output.LayerNorm.weight                   [768]       768           True
+module.bert.bert.encoder.layer.3.output.LayerNorm.bias                     [768]       768           True
+module.bert.bert.encoder.layer.4.attention.self.query.bias                 [768]       768           True
+module.bert.bert.encoder.layer.4.attention.self.key.bias                   [768]       768           True
+module.bert.bert.encoder.layer.4.attention.self.value.bias                 [768]       768           True
+module.bert.bert.encoder.layer.4.attention.output.dense.bias               [768]       768           True
+module.bert.bert.encoder.layer.4.attention.output.LayerNorm.weight         [768]       768           True
+module.bert.bert.encoder.layer.4.attention.output.LayerNorm.bias           [768]       768           True
+module.bert.bert.encoder.layer.4.output.dense.bias                         [768]       768           True
+module.bert.bert.encoder.layer.4.output.LayerNorm.weight                   [768]       768           True
+module.bert.bert.encoder.layer.4.output.LayerNorm.bias                     [768]       768           True
+module.bert.bert.encoder.layer.5.attention.self.query.bias                 [768]       768           True
+module.bert.bert.encoder.layer.5.attention.self.key.bias                   [768]       768           True
+module.bert.bert.encoder.layer.5.attention.self.value.bias                 [768]       768           True
+module.bert.bert.encoder.layer.5.attention.output.dense.bias               [768]       768           True
+module.bert.bert.encoder.layer.5.attention.output.LayerNorm.weight         [768]       768           True
+module.bert.bert.encoder.layer.5.attention.output.LayerNorm.bias           [768]       768           True
+module.bert.bert.encoder.layer.5.output.dense.bias                         [768]       768           True
+module.bert.bert.encoder.layer.5.output.LayerNorm.weight                   [768]       768           True
+module.bert.bert.encoder.layer.5.output.LayerNorm.bias                     [768]       768           True
+module.bert.bert.encoder.layer.6.attention.self.query.bias                 [768]       768           True
+module.bert.bert.encoder.layer.6.attention.self.key.bias                   [768]       768           True
+module.bert.bert.encoder.layer.6.attention.self.value.bias                 [768]       768           True
+module.bert.bert.encoder.layer.6.attention.output.dense.bias               [768]       768           True
+module.bert.bert.encoder.layer.6.attention.output.LayerNorm.weight         [768]       768           True
+module.bert.bert.encoder.layer.6.attention.output.LayerNorm.bias           [768]       768           True
+module.bert.bert.encoder.layer.6.output.dense.bias                         [768]       768           True
+module.bert.bert.encoder.layer.6.output.LayerNorm.weight                   [768]       768           True
+module.bert.bert.encoder.layer.6.output.LayerNorm.bias                     [768]       768           True
+module.bert.bert.encoder.layer.7.attention.self.query.bias                 [768]       768           True
+module.bert.bert.encoder.layer.7.attention.self.key.bias                   [768]       768           True
+module.bert.bert.encoder.layer.7.attention.self.value.bias                 [768]       768           True
+module.bert.bert.encoder.layer.7.attention.output.dense.bias               [768]       768           True
+module.bert.bert.encoder.layer.7.attention.output.LayerNorm.weight         [768]       768           True
+module.bert.bert.encoder.layer.7.attention.output.LayerNorm.bias           [768]       768           True
+module.bert.bert.encoder.layer.7.output.dense.bias                         [768]       768           True
+module.bert.bert.encoder.layer.7.output.LayerNorm.weight                   [768]       768           True
+module.bert.bert.encoder.layer.7.output.LayerNorm.bias                     [768]       768           True
+module.bert.bert.encoder.layer.8.attention.self.query.bias                 [768]       768           True
+module.bert.bert.encoder.layer.8.attention.self.key.bias                   [768]       768           True
+module.bert.bert.encoder.layer.8.attention.self.value.bias                 [768]       768           True
+module.bert.bert.encoder.layer.8.attention.output.dense.bias               [768]       768           True
+module.bert.bert.encoder.layer.8.attention.output.LayerNorm.weight         [768]       768           True
+module.bert.bert.encoder.layer.8.attention.output.LayerNorm.bias           [768]       768           True
+module.bert.bert.encoder.layer.8.output.dense.bias                         [768]       768           True
+module.bert.bert.encoder.layer.8.output.LayerNorm.weight                   [768]       768           True
+module.bert.bert.encoder.layer.8.output.LayerNorm.bias                     [768]       768           True
+module.bert.bert.encoder.layer.9.attention.self.query.bias                 [768]       768           True
+module.bert.bert.encoder.layer.9.attention.self.key.bias                   [768]       768           True
+module.bert.bert.encoder.layer.9.attention.self.value.bias                 [768]       768           True
+module.bert.bert.encoder.layer.9.attention.output.dense.bias               [768]       768           True
+module.bert.bert.encoder.layer.9.attention.output.LayerNorm.weight         [768]       768           True
+module.bert.bert.encoder.layer.9.attention.output.LayerNorm.bias           [768]       768           True
+module.bert.bert.encoder.layer.9.output.dense.bias                         [768]       768           True
+module.bert.bert.encoder.layer.9.output.LayerNorm.weight                   [768]       768           True
+module.bert.bert.encoder.layer.9.output.LayerNorm.bias                     [768]       768           True
+module.bert.bert.encoder.layer.10.attention.self.query.bias                [768]       768           True
+module.bert.bert.encoder.layer.10.attention.self.key.bias                  [768]       768           True
+module.bert.bert.encoder.layer.10.attention.self.value.bias                [768]       768           True
+module.bert.bert.encoder.layer.10.attention.output.dense.bias              [768]       768           True
+module.bert.bert.encoder.layer.10.attention.output.LayerNorm.weight        [768]       768           True
+module.bert.bert.encoder.layer.10.attention.output.LayerNorm.bias          [768]       768           True
+module.bert.bert.encoder.layer.10.output.dense.bias                        [768]       768           True
+module.bert.bert.encoder.layer.10.output.LayerNorm.weight                  [768]       768           True
+module.bert.bert.encoder.layer.10.output.LayerNorm.bias                    [768]       768           True
+module.bert.bert.encoder.layer.11.attention.self.query.bias                [768]       768           True
+module.bert.bert.encoder.layer.11.attention.self.key.bias                  [768]       768           True
+module.bert.bert.encoder.layer.11.attention.self.value.bias                [768]       768           True
+module.bert.bert.encoder.layer.11.attention.output.dense.bias              [768]       768           True
+module.bert.bert.encoder.layer.11.attention.output.LayerNorm.weight        [768]       768           True
+module.bert.bert.encoder.layer.11.attention.output.LayerNorm.bias          [768]       768           True
+module.bert.bert.encoder.layer.11.output.dense.bias                        [768]       768           True
+module.bert.bert.encoder.layer.11.output.LayerNorm.weight                  [768]       768           True
+module.bert.bert.encoder.layer.11.output.LayerNorm.bias                    [768]       768           True
+module.bert.bert.pooler.dense.bias                                         [768]       768           True
+module.bert.cls.predictions.transform.dense.bias                           [768]       768           True
+module.bert.cls.predictions.transform.LayerNorm.weight                     [768]       768           True
+module.bert.cls.predictions.transform.LayerNorm.bias                       [768]       768           True
+module.bert.cls.seq_relationship.bias                                        [2]         2           True 
+ ----
+AttrDict({'dataset': 'vqa', 'data_root': 'X_COCO', 'use_visual_genome': True, 'max_seq_length': 128, 'bert_model_name': '/home/chenkangyang/workspace/visualbert/models/bert-base-uncased', 'do_lower_case': True, 'train_batch_size': 64, 'eval_batch_size': 64, 'pretraining': True, 'no_next_sentence': True, 'false_caption_ratio': 0.5, 'patience': 3, 'learning_rate': 5e-05, 'num_train_epochs': 10, 'warmup_proportion': 0.1, 'grad_norm': 1.0, 'gradient_accumulation_steps': 1, 'restore_bin': '/home/chenkangyang/workspace/visualbert/models/uclanlp/vqa_pre_trained.th', 'include_res152': False, 'num_workers': 4, 'val_workers': 2, 'model': {'type': 'VisualBERTFixedImageEmbedding', 'special_visual_initialize': True, 'training_head_type': 'pretraining', 'visual_embedding_dim': 2048}, 'folder': 'logs/vqa_pretrain', 'no_tqdm': False, 'config': '/home/chenkangyang/workspace/visualbert/visualbert/configs/vqa/pre-train.json', 'fp16': False})
+########### Starting from 0
+e 0b  100/10283. 
+summ:
+loss                  0.483958
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.483958
+accuracy              0.000000
+sec_per_batch         0.544114
+hr_per_epoch          1.554202
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b  200/10283. 
+summ:
+loss                  0.478453
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.478453
+accuracy              0.000000
+sec_per_batch         0.547220
+hr_per_epoch          1.563074
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b  300/10283. 
+summ:
+loss                  0.457852
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.457852
+accuracy              0.000000
+sec_per_batch         0.550411
+hr_per_epoch          1.572189
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b  400/10283. 
+summ:
+loss                  0.473064
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.473064
+accuracy              0.000000
+sec_per_batch         0.621879
+hr_per_epoch          1.776327
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b  500/10283. 
+summ:
+loss                  0.452419
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.452419
+accuracy              0.000000
+sec_per_batch         0.552184
+hr_per_epoch          1.577253
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b  600/10283. 
+summ:
+loss                  0.429579
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.429579
+accuracy              0.000000
+sec_per_batch         0.551174
+hr_per_epoch          1.574368
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b  700/10283. 
+summ:
+loss                  0.472383
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.472383
+accuracy              0.000000
+sec_per_batch         0.551351
+hr_per_epoch          1.574872
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b  800/10283. 
+summ:
+loss                  0.459407
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.459407
+accuracy              0.000000
+sec_per_batch         0.554180
+hr_per_epoch          1.582955
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b  900/10283. 
+summ:
+loss                  0.452781
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.452781
+accuracy              0.000000
+sec_per_batch         0.549527
+hr_per_epoch          1.569663
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 1000/10283. 
+summ:
+loss                  0.470146
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.470146
+accuracy              0.000000
+sec_per_batch         0.551238
+hr_per_epoch          1.574549
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 1100/10283. 
+summ:
+loss                  0.435860
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.435860
+accuracy              0.000000
+sec_per_batch         0.551667
+hr_per_epoch          1.575774
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 1200/10283. 
+summ:
+loss                  0.449870
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.449870
+accuracy              0.000000
+sec_per_batch         0.557444
+hr_per_epoch          1.592276
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 1300/10283. 
+summ:
+loss                  0.470792
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.470792
+accuracy              0.000000
+sec_per_batch         0.580060
+hr_per_epoch          1.656878
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 1400/10283. 
+summ:
+loss                  0.483535
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.483535
+accuracy              0.000000
+sec_per_batch         0.550978
+hr_per_epoch          1.573809
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 1500/10283. 
+summ:
+loss                  0.469242
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.469242
+accuracy              0.000000
+sec_per_batch         0.547940
+hr_per_epoch          1.565129
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 1600/10283. 
+summ:
+loss                  0.475459
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.475459
+accuracy              0.000000
+sec_per_batch         0.546800
+hr_per_epoch          1.561875
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 1700/10283. 
+summ:
+loss                  0.454799
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.454799
+accuracy              0.000000
+sec_per_batch         0.551766
+hr_per_epoch          1.576057
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 1800/10283. 
+summ:
+loss                  0.464457
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.464457
+accuracy              0.000000
+sec_per_batch         0.582296
+hr_per_epoch          1.663262
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 1900/10283. 
+summ:
+loss                  0.475578
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.475578
+accuracy              0.000000
+sec_per_batch         0.547264
+hr_per_epoch          1.563200
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 2000/10283. 
+summ:
+loss                  0.482398
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.482398
+accuracy              0.000000
+sec_per_batch         0.547061
+hr_per_epoch          1.562618
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 2100/10283. 
+summ:
+loss                  0.478877
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.478877
+accuracy              0.000000
+sec_per_batch         0.551893
+hr_per_epoch          1.576421
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 2200/10283. 
+summ:
+loss                  0.483752
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.483752
+accuracy              0.000000
+sec_per_batch         0.547700
+hr_per_epoch          1.564444
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 2300/10283. 
+summ:
+loss                  0.439036
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.439036
+accuracy              0.000000
+sec_per_batch         0.599518
+hr_per_epoch          1.712455
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 2400/10283. 
+summ:
+loss                  0.468826
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.468826
+accuracy              0.000000
+sec_per_batch         0.548954
+hr_per_epoch          1.568025
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 2500/10283. 
+summ:
+loss                  0.481748
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.481748
+accuracy              0.000000
+sec_per_batch         0.546885
+hr_per_epoch          1.562117
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 2600/10283. 
+summ:
+loss                  0.448706
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.448706
+accuracy              0.000000
+sec_per_batch         0.542679
+hr_per_epoch          1.550103
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 2700/10283. 
+summ:
+loss                  0.490332
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.490332
+accuracy              0.000000
+sec_per_batch         0.556830
+hr_per_epoch          1.590523
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 2800/10283. 
+summ:
+loss                  0.468844
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.468844
+accuracy              0.000000
+sec_per_batch         0.549805
+hr_per_epoch          1.570457
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 2900/10283. 
+summ:
+loss                  0.487606
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.487606
+accuracy              0.000000
+sec_per_batch         0.552469
+hr_per_epoch          1.578066
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 3000/10283. 
+summ:
+loss                  0.463019
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.463019
+accuracy              0.000000
+sec_per_batch         0.545929
+hr_per_epoch          1.559385
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 3100/10283. 
+summ:
+loss                  0.481236
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.481236
+accuracy              0.000000
+sec_per_batch         0.553175
+hr_per_epoch          1.580084
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 3200/10283. 
+summ:
+loss                  0.483470
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.483470
+accuracy              0.000000
+sec_per_batch         0.560706
+hr_per_epoch          1.601593
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 3300/10283. 
+summ:
+loss                  0.474618
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.474618
+accuracy              0.000000
+sec_per_batch         0.551412
+hr_per_epoch          1.575048
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 3400/10283. 
+summ:
+loss                  0.437907
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.437907
+accuracy              0.000000
+sec_per_batch         0.546024
+hr_per_epoch          1.559658
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 3500/10283. 
+summ:
+loss                  0.463853
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.463853
+accuracy              0.000000
+sec_per_batch         0.544300
+hr_per_epoch          1.554733
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 3600/10283. 
+summ:
+loss                  0.485138
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.485138
+accuracy              0.000000
+sec_per_batch         0.544343
+hr_per_epoch          1.554854
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 3700/10283. 
+summ:
+loss                  0.454196
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.454196
+accuracy              0.000000
+sec_per_batch         0.558117
+hr_per_epoch          1.594200
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 3800/10283. 
+summ:
+loss                  0.490728
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.490728
+accuracy              0.000000
+sec_per_batch         0.547114
+hr_per_epoch          1.562770
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 3900/10283. 
+summ:
+loss                  0.486453
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.486453
+accuracy              0.000000
+sec_per_batch         0.544263
+hr_per_epoch          1.554627
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 4000/10283. 
+summ:
+loss                  0.472829
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.472829
+accuracy              0.000000
+sec_per_batch         0.537723
+hr_per_epoch          1.535945
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 4100/10283. 
+summ:
+loss                  0.500395
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.500395
+accuracy              0.000000
+sec_per_batch         0.550158
+hr_per_epoch          1.571464
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 4200/10283. 
+summ:
+loss                  0.493526
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.493526
+accuracy              0.000000
+sec_per_batch         0.567025
+hr_per_epoch          1.619643
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 4300/10283. 
+summ:
+loss                  0.470203
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.470203
+accuracy              0.000000
+sec_per_batch         0.539988
+hr_per_epoch          1.542414
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 4400/10283. 
+summ:
+loss                  0.489480
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.489480
+accuracy              0.000000
+sec_per_batch         0.544510
+hr_per_epoch          1.555331
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 4500/10283. 
+summ:
+loss                  0.465100
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.465100
+accuracy              0.000000
+sec_per_batch         0.537552
+hr_per_epoch          1.535459
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 4600/10283. 
+summ:
+loss                  0.483952
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.483952
+accuracy              0.000000
+sec_per_batch         0.540296
+hr_per_epoch          1.543297
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 4700/10283. 
+summ:
+loss                  0.476546
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.476546
+accuracy              0.000000
+sec_per_batch         0.577934
+hr_per_epoch          1.650804
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 4800/10283. 
+summ:
+loss                  0.507722
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.507722
+accuracy              0.000000
+sec_per_batch         0.541541
+hr_per_epoch          1.546852
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 4900/10283. 
+summ:
+loss                  0.455953
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.455953
+accuracy              0.000000
+sec_per_batch         0.541486
+hr_per_epoch          1.546694
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 5000/10283. 
+summ:
+loss                  0.499436
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.499436
+accuracy              0.000000
+sec_per_batch         0.546990
+hr_per_epoch          1.562417
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 5100/10283. 
+summ:
+loss                  0.497707
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.497707
+accuracy              0.000000
+sec_per_batch         0.548720
+hr_per_epoch          1.567358
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 5200/10283. 
+summ:
+loss                  0.507621
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.507621
+accuracy              0.000000
+sec_per_batch         0.544670
+hr_per_epoch          1.555790
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 5300/10283. 
+summ:
+loss                  0.473424
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.473424
+accuracy              0.000000
+sec_per_batch         0.546684
+hr_per_epoch          1.561543
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 5400/10283. 
+summ:
+loss                  0.477534
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.477534
+accuracy              0.000000
+sec_per_batch         0.548669
+hr_per_epoch          1.567213
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 5500/10283. 
+summ:
+loss                  0.480669
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.480669
+accuracy              0.000000
+sec_per_batch         0.548028
+hr_per_epoch          1.565382
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 5600/10283. 
+summ:
+loss                  0.477399
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.477399
+accuracy              0.000000
+sec_per_batch         0.551990
+hr_per_epoch          1.576697
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 5700/10283. 
+summ:
+loss                  0.495215
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.495215
+accuracy              0.000000
+sec_per_batch         0.546991
+hr_per_epoch          1.562418
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 5800/10283. 
+summ:
+loss                  0.476003
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.476003
+accuracy              0.000000
+sec_per_batch         0.547761
+hr_per_epoch          1.564619
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 5900/10283. 
+summ:
+loss                  0.495110
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.495110
+accuracy              0.000000
+sec_per_batch         0.550283
+hr_per_epoch          1.571822
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 6000/10283. 
+summ:
+loss                  0.494604
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.494604
+accuracy              0.000000
+sec_per_batch         0.549941
+hr_per_epoch          1.570845
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 6100/10283. 
+summ:
+loss                  0.508183
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.508183
+accuracy              0.000000
+sec_per_batch         0.555319
+hr_per_epoch          1.586207
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 6200/10283. 
+summ:
+loss                  0.492075
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.492075
+accuracy              0.000000
+sec_per_batch         0.545464
+hr_per_epoch          1.558058
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 6300/10283. 
+summ:
+loss                  0.481113
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.481113
+accuracy              0.000000
+sec_per_batch         0.549095
+hr_per_epoch          1.568430
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 6400/10283. 
+summ:
+loss                  0.498228
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.498228
+accuracy              0.000000
+sec_per_batch         0.545235
+hr_per_epoch          1.557403
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 6500/10283. 
+summ:
+loss                  0.514626
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.514626
+accuracy              0.000000
+sec_per_batch         0.549704
+hr_per_epoch          1.570168
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 6600/10283. 
+summ:
+loss                  0.507298
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.507298
+accuracy              0.000000
+sec_per_batch         0.568293
+hr_per_epoch          1.623266
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 6700/10283. 
+summ:
+loss                  0.509008
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.509008
+accuracy              0.000000
+sec_per_batch         0.549662
+hr_per_epoch          1.570048
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 6800/10283. 
+summ:
+loss                  0.504198
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.504198
+accuracy              0.000000
+sec_per_batch         0.551360
+hr_per_epoch          1.574900
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 6900/10283. 
+summ:
+loss                  0.468175
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.468175
+accuracy              0.000000
+sec_per_batch         0.548187
+hr_per_epoch          1.565836
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 7000/10283. 
+summ:
+loss                  0.540857
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.540857
+accuracy              0.000000
+sec_per_batch         0.550365
+hr_per_epoch          1.572056
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 7100/10283. 
+summ:
+loss                  0.533875
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.533875
+accuracy              0.000000
+sec_per_batch         0.577612
+hr_per_epoch          1.649883
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 7200/10283. 
+summ:
+loss                  0.493562
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.493562
+accuracy              0.000000
+sec_per_batch         0.547322
+hr_per_epoch          1.563364
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 7300/10283. 
+summ:
+loss                  0.520082
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.520082
+accuracy              0.000000
+sec_per_batch         0.544968
+hr_per_epoch          1.556641
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 7400/10283. 
+summ:
+loss                  0.533735
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.533735
+accuracy              0.000000
+sec_per_batch         0.544256
+hr_per_epoch          1.554606
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 7500/10283. 
+summ:
+loss                  0.511040
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.511040
+accuracy              0.000000
+sec_per_batch         0.540102
+hr_per_epoch          1.542742
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 7600/10283. 
+summ:
+loss                  0.538899
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.538899
+accuracy              0.000000
+sec_per_batch         0.551807
+hr_per_epoch          1.576174
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 7700/10283. 
+summ:
+loss                  0.507816
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.507816
+accuracy              0.000000
+sec_per_batch         0.540407
+hr_per_epoch          1.543612
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 7800/10283. 
+summ:
+loss                  0.512063
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.512063
+accuracy              0.000000
+sec_per_batch         0.545087
+hr_per_epoch          1.556981
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 7900/10283. 
+summ:
+loss                  0.502846
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.502846
+accuracy              0.000000
+sec_per_batch         0.541794
+hr_per_epoch          1.547573
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 8000/10283. 
+summ:
+loss                  0.523424
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.523424
+accuracy              0.000000
+sec_per_batch         0.546124
+hr_per_epoch          1.559942
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 8100/10283. 
+summ:
+loss                  0.523240
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.523240
+accuracy              0.000000
+sec_per_batch         0.550958
+hr_per_epoch          1.573749
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 8200/10283. 
+summ:
+loss                  0.540735
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.540735
+accuracy              0.000000
+sec_per_batch         0.542704
+hr_per_epoch          1.550172
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 8300/10283. 
+summ:
+loss                  0.532358
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.532358
+accuracy              0.000000
+sec_per_batch         0.539812
+hr_per_epoch          1.541912
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 8400/10283. 
+summ:
+loss                  0.536151
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.536151
+accuracy              0.000000
+sec_per_batch         0.541119
+hr_per_epoch          1.545647
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 8500/10283. 
+summ:
+loss                  0.539038
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.539038
+accuracy              0.000000
+sec_per_batch         0.546315
+hr_per_epoch          1.560487
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 8600/10283. 
+summ:
+loss                  0.517076
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.517076
+accuracy              0.000000
+sec_per_batch         0.548107
+hr_per_epoch          1.565606
+dtype: float64
+~~~~~~~~~~~~~~~~~~
+
+e 0b 8700/10283. 
+summ:
+loss                  0.535267
+crl                        NaN
+next_sentence_loss    0.000000
+masked_lm_loss        0.535267
+accuracy              0.000000
+sec_per_batch         0.537219
+hr_per_epoch          1.534506
+dtype: float64
+~~~~~~~~~~~~~~~~~~
