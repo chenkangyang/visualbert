@@ -1,1 +1,0 @@
-../paddle_visual_bert/README.md
