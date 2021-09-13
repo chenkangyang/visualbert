@@ -1,4 +1,8 @@
 测试集结果文件md5
+> 链接：https://pan.baidu.com/s/1uFOFjj5QdCvaCw-8MYTFhA 
+提取码：jpmn 
+--来自百度网盘超级会员V5的分享
+
 ```bash
 (base) ➜  visualbert git:(kk) ✗ md5sum logs/vqa_finetune_0831/result.json 
 22e0a4ce40f0ec92d8fa730b697101cd  logs/vqa_finetune_0831/result.json
