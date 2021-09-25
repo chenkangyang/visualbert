@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: vqa",
+            "name": "Python: my-vqa-finetune",
             "type": "python",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -13,15 +13,14 @@
             "console": "integratedTerminal",
             "justMyCode": false,
             "env": {
-                // "CUDA_VISIBLE_DEVICES": "4,6,7,8",
-                "CUDA_VISIBLE_DEVICES": "4,6,7,8",
+                "CUDA_VISIBLE_DEVICES": "8",
                 "PYTHONPATH": "$PYTHONPATH:/home/chenkangyang/workspace/visualbert/visualbert:/home/chenkangyang/workspace/visualbert",
             },
             "args": [
                 "-folder",
-                "logs/debug",
+                "logs/my-fine-tune-debug",
                 "-config",
-                "/home/chenkangyang/workspace/visualbert/visualbert/configs/vqa/coco-pre-train.json"
+                "/home/chenkangyang/workspace/visualbert/my-fine-tune.json"
             ]
         }
     ]

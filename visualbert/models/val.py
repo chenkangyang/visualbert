@@ -265,7 +265,7 @@ for epoch_num in range(start_epoch, stop_epoch):
         print("---\nTRAIN EPOCH {:2d}:\n{}\n----".format(epoch_num, pd.DataFrame(train_results).mean()))
 
     try:
-        ###! This is the eval part
+        ### This is the eval part
         val_probs = []
         val_labels = []
         val_size = 0.0
@@ -282,7 +282,6 @@ for epoch_num in range(start_epoch, stop_epoch):
         val_counter = 0
 
         ############ Different reporting parameters
-
         # for vqa, nlvr, flickr
         do_test = args.get("do_test", False) ## This one is for vqa
         if do_test:
@@ -293,16 +292,13 @@ for epoch_num in range(start_epoch, stop_epoch):
         for b, (time_per_batch, batch) in enumerate(time_batch(val_loader if args.no_tqdm else tqdm(val_loader), reset_every=ARGS_RESET_EVERY)):
             with torch.no_grad():
                 batch = _to_gpu(batch)
+                from ipdb import set_trace as st; st()
                 output_dict = train_model.step(batch, eval_mode = True)
 
                 if not args.pretraining:
                     # Pretty clumsy code
                     if args.model.training_head_type == "vqa":
                         val_probs.append(output_dict['logits'].detach().cpu())
-                        with open("/home/chenkangyang/workspace/visualbert/logits_torch.log", 'a') as f: #TODO
-                            line = "{}\n".format(output_dict['logits'].detach().cpu().max())
-                            f.write(line)
-                            f.flush()
                         if not do_test:
                             val_labels.append(batch['label'].detach().cpu())
                     elif args.model.training_head_type == "flickr":
@@ -328,8 +324,7 @@ for epoch_num in range(start_epoch, stop_epoch):
 
                     if "next_sentence_loss" in output_dict:
                         val_next_sentence_loss_sum += output_dict['next_sentence_loss'].mean().item() * batch['label'].size(0)
-        
-        #! 验证结束一个epoch
+
         if not args.pretraining:
             if args.model.training_head_type == "vqa":
                 if do_test:
@@ -407,7 +402,6 @@ for epoch_num in range(start_epoch, stop_epoch):
         ############### Save model
         if not args.get("skip_training", False):
             train_model.save_checkpoint(args.folder, epoch_num, val_metric_per_epoch, is_best=int(np.argmax(val_metric_per_epoch)) == (len(val_metric_per_epoch) - 1))
-    
     except KeyboardInterrupt:
         if not args.get("skip_training", False):
             train_model.save_checkpoint(args.folder, epoch_num, None, is_best=False)
@@ -419,7 +413,4 @@ for epoch_num in range(start_epoch, stop_epoch):
         print("Something Went Wrong with Evaluation. Ignored.")
         if args.get("skip_training", False):
             assert(0)
-
-from ipdb import set_trace as st; st()
-print("Finish all epoch, Ready to Exit")
-    
+        

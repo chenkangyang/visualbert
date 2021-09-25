@@ -1563,7 +1563,7 @@ class TrainVisualBERTObjective(PreTrainedBertModel):
             output_dict["loss"] = None
             if label is not None:
                 loss_fct = CrossEntropyLoss()
-                output_dict["loss"] = loss_fct(reshaped_logits, label.float().contiguous())
+                output_dict["loss"] = loss_fct(reshaped_logits, label.contiguous())
             return output_dict
 
         elif self.training_head_type == "flickr":

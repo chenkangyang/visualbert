@@ -211,7 +211,8 @@ class VisualBERTFixedImageEmbedding(Model):
         self.training_head_type = training_head_type
 
         self.bert = TrainVisualBERTObjective.from_pretrained(
-                bert_model_name,
+                # bert_model_name,
+                "/home/chenkangyang/workspace/visualbert/models/bert-base-uncased",
                 cache_dir=os.path.join(str(PYTORCH_PRETRAINED_BERT_CACHE), 'distributed_{}'.format(-1)),
                 training_head_type = training_head_type,
                 visual_embedding_dim = visual_embedding_dim,

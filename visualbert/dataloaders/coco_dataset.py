@@ -397,7 +397,7 @@ class COCODataset(Dataset):
         copy_args.annots_path = os.path.join(data_root, "annotations/captions_{}2014.json".format(copy_args.split_name))
 
         if args.image_feature_type == "nlvr":
-            copy_args.chunk_path = os.path.join(data_root, "coco_features_{}_150.th".format(copy_args.split_name))
+            copy_args.chunk_path = os.path.join(data_root, "data", "coco_features_{}_150.th".format(copy_args.split_name))
 
         copy_args.data_root = data_root
         copy_args.masks = masks
@@ -410,7 +410,7 @@ class COCODataset(Dataset):
         copy_args.split_name = "val"
         copy_args.annots_path = os.path.join(data_root, "annotations/captions_{}2014.json".format(copy_args.split_name))
         if args.image_feature_type == "nlvr":
-            copy_args.chunk_path = os.path.join(data_root, "coco_features_{}_150.th".format(copy_args.split_name))
+            copy_args.chunk_path = os.path.join(data_root, "data", "coco_features_{}_150.th".format(copy_args.split_name))
         copy_args.data_root = data_root
         copy_args.masks = masks
 

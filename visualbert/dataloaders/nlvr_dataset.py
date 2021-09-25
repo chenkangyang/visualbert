@@ -59,6 +59,7 @@ class NLVRDataset(Dataset):
             for image_id in self.chunk.keys():
                 image_feat_variable, image_boxes, confidence  = self.chunk[image_id]
                 if "npz" not in image_id:
+                    # TODO npz 存储于本地并且用 numpy读取
                     new_chunk[image_id+".npz"] = screen_feature(image_feat_variable, image_boxes,confidence, self.image_screening_parameters)
                     average += new_chunk[image_id+".npz"][2]
                 else:
@@ -147,12 +148,12 @@ class NLVRDataset(Dataset):
         data_root = args.data_root
         args_copy = deepcopy(args)
         args_copy.split = "train"
-        args_copy.annots_path = os.path.join(data_root, "{}.json".format(args_copy.split))
+        args_copy.annots_path = os.path.join(data_root, "annotations", "{}.json".format(args_copy.split))
 
         if args.image_screening_parameters["image_feature_cap"] is not None and args.image_screening_parameters["image_feature_cap"] > 36:
-            args_copy.chunk_path = os.path.join(data_root, "features_{}_150.th".format(args_copy.split))
+            args_copy.chunk_path = os.path.join(data_root, "data", "features_{}_150.th".format(args_copy.split))
         else:
-            args_copy.chunk_path = os.path.join(data_root, "features_chunk_{}.th".format(args_copy.split))
+            args_copy.chunk_path = os.path.join(data_root, "data", "features_chunk_{}.th".format(args_copy.split))
 
         if args.get("do_test", False):
             trainset = None
@@ -162,11 +163,11 @@ class NLVRDataset(Dataset):
             trainset.is_train = True
             args_copy = deepcopy(args)
             args_copy.split = "dev"
-            args_copy.annots_path = os.path.join(data_root, "{}.json".format(args_copy.split))
+            args_copy.annots_path = os.path.join(data_root, "annotations", "{}.json".format(args_copy.split))
             if args.image_screening_parameters["image_feature_cap"] is not None and args.image_screening_parameters["image_feature_cap"] > 36:
-                args_copy.chunk_path = os.path.join(data_root, "features_{}_150.th".format(args_copy.split))
+                args_copy.chunk_path = os.path.join(data_root, "data", "features_{}_150.th".format(args_copy.split))
             else:
-                args_copy.chunk_path = os.path.join(data_root, "features_chunk_{}.th".format(args_copy.split))
+                args_copy.chunk_path = os.path.join(data_root, "data", "features_chunk_{}.th".format(args_copy.split))
 
             validationset = cls(args_copy)
             validationset.is_train = False
@@ -177,11 +178,11 @@ class NLVRDataset(Dataset):
         if args.get("test_on_hidden", False):
             args_copy.split = "test2"
 
-        args_copy.annots_path = os.path.join(data_root, "{}.json".format(args_copy.split))
+        args_copy.annots_path = os.path.join(data_root, "annotations", "{}.json".format(args_copy.split))
         if args.image_screening_parameters["image_feature_cap"] is not None and args.image_screening_parameters["image_feature_cap"] > 36:
-            args_copy.chunk_path = os.path.join(data_root, "features_{}_150.th".format(args_copy.split))
+            args_copy.chunk_path = os.path.join(data_root, "data", "features_{}_150.th".format(args_copy.split))
         else:
-            args_copy.chunk_path = os.path.join(data_root, "features_chunk_{}.th".format(args_copy.split))
+            args_copy.chunk_path = os.path.join(data_root, "data", "features_chunk_{}.th".format(args_copy.split))
         testset = cls(args_copy)
         testset.is_train = False
 
